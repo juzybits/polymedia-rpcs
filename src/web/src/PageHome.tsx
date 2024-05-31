@@ -1,4 +1,4 @@
-import { SuiClient } from "@mysten/sui.js/client";
+import { SuiClient } from "@mysten/sui/client";
 import { RPC_ENDPOINTS, RpcLatencyResult, generateRandomAddress, measureRpcLatency } from "@polymedia/suitcase-core";
 import { LinkExternal } from "@polymedia/suitcase-react";
 import React, { useState } from "react";
